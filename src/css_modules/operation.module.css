@@ -1,0 +1,43 @@
+.btnBounce {
+    background: grey;
+    height: 3em;
+    width: 10em;
+    color: black;
+}
+
+.btnGradient {
+    background-image: linear-gradient(to right, orangered, greenyellow, deepskyblue);
+    height: 3em;
+    width: 10em;
+    color: black;
+}
+
+.btnRed {
+    background: orangered;
+    border: 9px double grey;
+    height: 3em;
+    width: 10em;
+}
+
+.btnGreen {
+    background: yellowgreen;
+    border: 9px double grey;
+    height: 3em;
+    width: 10em;
+}
+
+.btnBlue {
+    background: deepskyblue;
+    border: 9px double grey;
+    height: 3em;
+    width: 10em;
+}
+
+.btnBounce:hover,
+.btnGradient:hover{
+    box-shadow: 4px 2px black;
+    color: white;
+}
+
+
+
